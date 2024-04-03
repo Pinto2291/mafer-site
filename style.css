@@ -77,7 +77,7 @@ button {
     font-style: italic;
 }
 
-.text-justify {
+.text-center{
     text-align: center;
 }
 
@@ -126,6 +126,20 @@ button {
     color: var(--bg-cream-white);
 }
 
+/* width percentage */
+
+.width-25 {
+    width: 25%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-75 {
+    width: 75%;
+}
+
 /* Buttons */
 
 .circle-red-btn {
@@ -135,13 +149,14 @@ button {
     padding: 0.5rem 1rem;
 }
 
-.square-red-btn {
+.square-btn {
     background-color: var(--red-color-1);
     color: #FFF;
     padding: 1.5rem;
     font-size: 2rem;
     font-weight: 700;
     font-family: var(--main-font-family);
+    
 }
 
 /* Navegacion */
@@ -172,11 +187,13 @@ button {
 
 .hero-text-part {
     background-color: var(--bg-white);
-    padding: 7rem;
+    padding: 4rem;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 /* section objectivo */
