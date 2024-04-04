@@ -256,11 +256,12 @@ button {
 
 
 /* Media queries */
+/*
 @media only screen and (min-width: 1200px) {
     .hero {
         
     }
-}
+}*/
 
 
 @media only screen and (max-width: 768px) {
