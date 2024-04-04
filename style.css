@@ -240,9 +240,51 @@ button {
     font-size: 2.5rem;
 }
 
+/* hamburger menu */
+
+.name-studio {
+    display: none;
+}
+
+
 /* Media queries */
 
 @media only screen and (max-width: 460px) {
+
+    .navegacion-main {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        justify-items: center;
+        cursor: pointer;
+    }
+    
+    .hamburger-bar {
+        width: 3rem;
+        height: 0.8rem;
+        background-color: var(--main-black);
+    }
+
+    .main-name {
+        display: none;
+    }
+
+    .name-studio {
+        display: block;
+    }
+
     .navegacion-lista {
         flex-direction: column;
         gap: 2rem;
